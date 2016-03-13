@@ -1,0 +1,3 @@
+var scrapper = require('../src/scrapper/scrapper');
+
+scrapper.start();

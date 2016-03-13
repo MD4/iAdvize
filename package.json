@@ -1,0 +1,22 @@
+{
+  "name": "iadvize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "scripts": {
+    "test": "jshint **/*.js && mocha test/**/*.js",
+    "start": "node bin/www",
+    "scrapper": "node bin/scrapper"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "cheerio": "^0.20.0",
+    "mongodb": "^2.1.7",
+    "request": "^2.69.0"
+  }
+}
