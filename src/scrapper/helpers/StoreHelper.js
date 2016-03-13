@@ -18,7 +18,7 @@ function _storeArticles(articles, callback) {
     async.parallel(
         articles
             .map(function (article) {
-                return _storeArticleIt(article)
+                return _storeArticleIt(article);
             }),
         callback
     );

@@ -4,19 +4,23 @@
   "description": "",
   "main": "bin/www",
   "scripts": {
-    "test": "jshint **/*.js && mocha test/**/*.js",
+    "test": "gulp",
     "start": "node bin/www",
     "scrapper": "node bin/scrapper"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "~3.5.0",
+    "gulp": "~3.9.1",
+    "gulp-jshint": "~2.0.0",
+    "gulp-mocha": "~2.2.0",
+    "jshint": "~2.9.1"
   },
   "dependencies": {
-    "async": "^1.5.2",
-    "cheerio": "^0.20.0",
-    "mongodb": "^2.1.7",
-    "request": "^2.69.0"
+    "async": "~1.5.2",
+    "cheerio": "~0.20.0",
+    "mongodb": "~2.1.7",
+    "request": "~2.69.0"
   }
 }

@@ -17,19 +17,19 @@ module.exports.start = _start;
  * Number of articles on a single page
  * @type {number}
  */
-const ARTICLES_PER_PAGE = 13;
+var ARTICLES_PER_PAGE = 13;
 
 /**
  * Number of articles to fetch
  * @type {number}
  */
-const ARTICLES_TO_FETCH = +process.argv[2] || 200;
+var ARTICLES_TO_FETCH = +process.argv[2] || 200;
 
 /**
  * Base url to scrappe
  * @type {string}
  */
-const BASE_URL = 'http://www.viedemerde.fr/?page=';
+var BASE_URL = 'http://www.viedemerde.fr/?page=';
 
 
 /**
