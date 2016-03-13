@@ -1,5 +1,7 @@
 # iAdvize
 
+[http://iadvize-md4.herokuapp.com/docs/](http://iadvize-md4.herokuapp.com/docs/)
+
 ## installation
 
 ```
@@ -26,3 +28,7 @@ npm run scrapper
 ```
 npm start
 ```
+
+Then go to:
+ - API: http://localhost:3000/api/
+ - Doc swagger-ui: http://localhost:3000/docs/
