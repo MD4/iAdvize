@@ -48,6 +48,8 @@ function _initializeSwagger(callback) {
     var spec = fs.readFileSync('./src/api/config/swagger.yaml', 'utf8');
     var swaggerDoc = jsyaml.safeLoad(spec);
 
+    swaggerDoc.host = config.api.host;
+
     // Initialize the Swagger middleware
     swaggerTools.initializeMiddleware(swaggerDoc, function (middleware) {
         // Interpret Swagger resources and attach metadata to request - must be first in swagger-tools middleware chain
