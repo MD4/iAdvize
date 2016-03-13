@@ -1,5 +1,8 @@
 var MongoClient = require('mongodb').MongoClient;
 var moment = require('moment');
+
+var config = require('../../api/config/config');
+
 var db;
 
 var CollectionsNames = {
@@ -16,6 +19,7 @@ module.exports.getCollection = _getCollection;
 module.exports.finalize = _finalize;
 
 // private
+
 
 /**
  * Gets the current database connection instance
@@ -42,7 +46,7 @@ function _getCollection(name) {
  * @private
  */
 function _connect(callback, test) {
-    var uri = 'mongodb://localhost:27017/iadvize' + (test ? 'Test' : '');
+    var uri = config.db.uri + (test ? 'Test' : '');
 
     MongoClient.connect(
         uri,

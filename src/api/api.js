@@ -6,6 +6,7 @@ var swaggerTools = require('swagger-tools');
 var jsyaml = require('js-yaml');
 var fs = require('fs');
 
+var config = require('./config/config');
 var MongoHelper = require('../common/helpers/MongoHelper');
 
 // exports
@@ -15,7 +16,6 @@ module.exports.stop = _stop;
 
 // private
 
-var serverPort = 3000;
 var server;
 
 // swaggerRouter configuration
@@ -25,7 +25,12 @@ var options = {
     useStubs: process.env.NODE_ENV === 'development' // Conditionally turn on stubs (mock mode)
 };
 
-
+/**
+ * Starts the API
+ * @param test Test mode
+ * @param callback
+ * @private
+ */
 function _start(test, callback) {
     console.log('Starting api !');
 
@@ -34,8 +39,12 @@ function _start(test, callback) {
     }, test);
 }
 
+/**
+ * Initialize the API endpoints etc. with the swagger config file
+ * @param callback
+ * @private
+ */
 function _initializeSwagger(callback) {
-    // The Swagger document (require it, build it programmatically, fetch it from a URL, ...)
     var spec = fs.readFileSync('./src/api/config/swagger.yaml', 'utf8');
     var swaggerDoc = jsyaml.safeLoad(spec);
 
@@ -55,9 +64,9 @@ function _initializeSwagger(callback) {
 
         // Start the server
         server = http.createServer(app);
-        server.listen(serverPort, function () {
-            console.log('Your server is listening on port %d (http://localhost:%d)', serverPort, serverPort);
-            console.log('Swagger-ui is available on http://localhost:%d/docs', serverPort);
+        server.listen(config.api.port, function () {
+            console.log('Your server is listening on port %d (http://localhost:%d)', config.api.port, config.api.port);
+            console.log('Swagger-ui is available on http://localhost:%d/docs', config.api.port);
 
             if (callback) {
                 callback();
@@ -66,6 +75,10 @@ function _initializeSwagger(callback) {
     });
 }
 
+/**
+ * Stops the API
+ * @private
+ */
 function _stop() {
     MongoHelper.finalize();
     server.close();
