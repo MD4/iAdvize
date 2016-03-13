@@ -7,6 +7,12 @@ npm install -g jshint mocha
 npm install
 ```
 
+## run tests
+
+```
+npm test
+```
+
 ## usage
 
 ### scrapper

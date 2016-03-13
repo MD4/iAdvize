@@ -1,4 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
+var moment = require('moment');
 var db;
 
 var CollectionsNames = {
@@ -40,16 +41,19 @@ function _getCollection(name) {
  * @param callback
  * @private
  */
-function _connect(callback) {
-    var uri = 'mongodb://localhost:27017/iadvize';
-
-    console.log('Database connection: %s', uri);
+function _connect(callback, test) {
+    var uri = 'mongodb://localhost:27017/iadvize' + (test ? 'Test' : '');
 
     MongoClient.connect(
         uri,
         function (err, database) {
             db = database;
-            callback(err);
+
+            if (test) {
+                _initializeTestDatabase(callback);
+            } else {
+                callback(err);
+            }
         }
     );
 }
@@ -60,5 +64,26 @@ function _connect(callback) {
  */
 function _finalize() {
     db.close();
-    console.log('Database connection closed.');
+}
+
+/**
+ * Initializes database content with test data
+ * @param callback
+ * @private
+ */
+function _initializeTestDatabase(callback) {
+    var db = _getCollection(CollectionsNames.ARTICLES);
+    var articles = require('../../../test/data/articles.json');
+
+    articles.forEach(function(article) {
+        if (!(article.date instanceof Date)) {
+            article.date = moment(article.date.$date).toDate();
+        }
+    });
+
+    db.drop();
+    db.insertMany(
+        articles,
+        callback
+    );
 }

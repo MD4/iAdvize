@@ -1,0 +1,105 @@
+---
+swagger: "2.0"
+info:
+  description: "VDM: My shitty life"
+  version: "1.0.0"
+  title: "VDM API"
+host: "localhost:3000"
+basePath: "/api"
+schemes:
+- "http"
+produces:
+- "application/json"
+paths:
+  /posts:
+    get:
+      tags:
+      - "Posts"
+      summary: "Posts"
+      description: "The posts endpoint returns the articles"
+      operationId: "postsGET"
+      parameters:
+      - name: "author"
+        in: "query"
+        description: "Author of the post"
+        required: false
+        type: "string"
+      - name: "from"
+        in: "query"
+        description: "Start date"
+        required: false
+        type: "string"
+      - name: "to"
+        in: "query"
+        description: "End date"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "An array of posts"
+          schema:
+            $ref: "#/definitions/Posts"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Error"
+      x-swagger-router-controller: "Posts"
+  /posts/{id}:
+    get:
+      tags:
+        - "Posts"
+      summary: "Posts"
+      description: "Returns the post with the given id"
+      operationId: "postsGETone"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "Unique post identifier"
+          required: true
+          type: "string"
+      responses:
+        200:
+          description: "Success"
+          schema:
+            $ref: '#/definitions/Post'
+        404:
+          description: "Post not found"
+      x-swagger-router-controller: "Posts"
+definitions:
+  Posts:
+    type: "object"
+    properties:
+      posts:
+        type: "array"
+        description: "Posts"
+        items:
+          $ref: "#/definitions/Post"
+      count:
+        type: "integer"
+        format: "int32"
+        description: "Posts count"
+  Post:
+    type: "object"
+    properties:
+      id:
+        type: "string"
+        description: "Unique post identifier"
+      content:
+        type: "string"
+        description: "Post content"
+      date:
+        type: "string"
+        description: "Post creation date"
+      author:
+        type: "string"
+        description: "Post author"
+  Error:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"
+      fields:
+        type: "string"

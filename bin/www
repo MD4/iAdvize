@@ -1,1 +1,5 @@
-console.log('www!');
+#!/usr/bin/env node
+
+var api = require('../src/api/api');
+
+api.start();

@@ -1,0 +1,522 @@
+[
+  {
+    "_id": "8690822",
+    "content": "Aujourd'hui, en retard au travail, je file quand même acheter du papier toilette et du coca. Arrivée à la caisse je demande poliment si je peux passer \"car c'est vraiment pressé\". Et c'est sous le regard compatissant de toute la file d'attente que j'ai pu avoir la priorité. VDM",
+    "date": {
+      "$date": "1970-01-01T00:00:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8690529",
+    "content": "Aujourd'hui, ma copine m'a abordé d'un air grave avec le classique : \"Il faut que je te parle.\" Tout ça avant de rajouter : \"Enfin pas maintenant, mais quand je serai prête.\" VDM",
+    "date": {
+      "$date": "2016-12-03T13:01:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8690507",
+    "content": "Aujourd'hui, dans le métro, je rentre chez moi après une très fatigante journée au travail. Une dame âgée rentre dans la rame, je lui propose tout naturellement ma place. Elle refuse avec un air étonné. J'insiste donc lourdement en vain, jusqu'à me rendre compte que j'étais en fait debout. VDM",
+    "date": {
+      "$date": "2016-12-03T12:00:00.000Z"
+    },
+    "author": "beurnaoute"
+  },
+  {
+    "_id": "8690505",
+    "content": "Aujourd'hui, ma mère me parle de son forfait portable. Apparemment, elle ne reçoit pas les M\u0026M'S. VDM",
+    "date": {
+      "$date": "2016-12-03T11:57:00.000Z"
+    },
+    "author": "Greys92"
+  },
+  {
+    "_id": "8690429",
+    "content": "Aujourd'hui, mes parents me font la gueule car je me suis mis en couple avec une parisienne et que ça fait plusieurs générations que nous sommes 100% bretons. Bah oui : \"Ça fait tâche dans l'arbre généalogique.\" VDM",
+    "date": {
+      "$date": "2016-12-03T07:53:00.000Z"
+    },
+    "author": "Anonyme (homme)"
+  },
+  {
+    "_id": "8690415",
+    "content": "Aujourd'hui, je suis en vacances aux États-Unis chez la famille de mon copain. Après cinq jours de macaronis aux fromages au déjeuner, je demande à belle-maman si je peux me cuisiner des brocolis. Elle me dit que non et me conseille de manger quelque chose de léger, comme des chips par exemple. VDM",
+    "date": {
+      "$date": "2016-12-03T04:03:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8690351",
+    "content": "Aujourd'hui, et depuis que j'ai emménagé, mon voisin de palier me drague assez lourdement chaque fois que je le croise. Pour le décourager, j'ai laissé entendre avoir un copain, et me sens maintenant obligée de simuler une relation sexuelle régulièrement pour être crédible. VDM",
+    "date": {
+      "$date": "2016-11-03T21:55:00.000Z"
+    },
+    "author": "AucuneCrédibilité"
+  },
+  {
+    "_id": "8690281",
+    "content": "Aujourd'hui, voyant que de nombreux amis de son grand-père décédé serraient la main ou embrassaient sa mamie, ma fille de 6 ans lui a demandé si elle leur faisait passer un casting pour être son prochain mari. VDM",
+    "date": {
+      "$date": "2016-11-03T19:08:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8690247",
+    "content": "Aujourd'hui, j'ai enfin compris pourquoi mon copain insiste tant pour aller faire les courses depuis quelques semaines. Il commande au drive, attend sagement au bar avec ses copains et change les sacs pour que je ne me doute de rien. VDM",
+    "date": {
+      "$date": "2016-11-03T17:14:00.000Z"
+    },
+    "author": "Anonyme (femme)"
+  },
+  {
+    "_id": "8690195",
+    "content": "Aujourd'hui, de retour d'un voyage humanitaire, mes parents ont organisé un apéro avec amis et famille. On me demande ce que je changerais si je devais le refaire. Je répond sans hésitation : ma coéquipière ! C'est à ce même moment que ma mère a choisi de révéler la surprise en la faisant entrer. VDM",
+    "date": {
+      "$date": "2016-11-03T15:27:00.000Z"
+    },
+    "author": "Lagaffe (femme)"
+  },
+  {
+    "_id": "8690165",
+    "content": "Aujourd'hui, je travaille dans un restaurant cafétéria. Une cliente m'a incendiée car j'avais débarrassé son assiette alors qu'elle n'avait pas commencé à manger. Ensuite, elle s'est rendu compte qu'elle l'avait laissé dans le micro-ondes. VDM",
+    "date": {
+      "$date": "2016-11-03T13:37:00.000Z"
+    },
+    "author": "flunchette"
+  },
+  {
+    "_id": "8690112",
+    "content": "Aujourd'hui, je suis au pair dans une famille. Pensant à une blague, je n'ai pas exécuté une des consignes qui m'avaient été données. Ce soir, ma patronne m'a signalé que j'avais bien oublié de mettre la brosse des WC dans le lave-vaisselle. Avec la vaisselle. VDM",
+    "date": {
+      "$date": "2016-11-03T09:51:00.000Z"
+    },
+    "author": "oups"
+  },
+  {
+    "_id": "8690161",
+    "content": "Aujourd'hui, je fais des mots croisés dans le train. La dame assise à côté de moi ne m'a pas laissé le temps de réfléchir et m'a donné immédiatement toutes les réponses. VDM",
+    "date": {
+      "$date": "2016-11-03T09:51:00.000Z"
+    },
+    "author": "Wordmaman"
+  },
+  {
+    "_id": "8690053",
+    "content": "Aujourd'hui, nous nous rendons chez un concessionnaire automobile. Le vendeur nous en propose une qui correspond à nos besoins, et ajoute : \"Charge utile : 725 kg.\" Mon mari se tourne aussitôt vers moi : \"Ah ben c'est bon, on va pouvoir emmener ta mère maintenant !\" VDM",
+    "date": {
+      "$date": "2016-11-03T00:12:00.000Z"
+    },
+    "author": "Anonyme (femme)"
+  },
+  {
+    "_id": "8689998",
+    "content": "Aujourd'hui, nous rentrons du parc avec ma nièce, suite à une fuite dans son pantalon. Me donnant la main pour traverser, elle m'annonce : \"Tu sais, ma main aussi est pleine de pipi !\" VDM",
+    "date": {
+      "$date": "2016-10-03T20:59:00.000Z"
+    },
+    "author": "LaLoose666"
+  },
+  {
+    "_id": "8689970",
+    "content": "Aujourd'hui, entretien d'embauche. Je remarque que l'un de mes potentiels employeurs semble plus intéressé par son ordinateur. En effet, dans le reflet de la vitre, je remarque que regarder le dernier épisode de la série \"Gotham\" lui semble plus important que mes motivations pour le poste. VDM",
+    "date": {
+      "$date": "2016-10-03T20:24:00.000Z"
+    },
+    "author": "Fab86 (homme)"
+  },
+  {
+    "_id": "8689947",
+    "content": "Aujourd'hui, enseignante de CP, je laisse malencontreusement échapper un pet malodorant. Deux de mes élèves se tournent vers moi avec un regard suspicieux. J'ai été obligée d'accuser un de leur camarades, innocent. VDM",
+    "date": {
+      "$date": "2016-10-03T19:34:00.000Z"
+    },
+    "author": "Effy"
+  },
+  {
+    "_id": "8689945",
+    "content": "Aujourd'hui, je suis resté bloqué à un barrière de péage. J'ai dû mettre les warning, retourner la voiture pour chercher mon ticket, créant un embouteillage. Au bout de 10 minutes je regarde la borne de péage : \"Prenez votre ticket.\" VDM",
+    "date": {
+      "$date": "2016-10-03T19:29:00.000Z"
+    },
+    "author": "toomsawyer"
+  },
+  {
+    "_id": "8689930",
+    "content": "Aujourd'hui, mon colocataire nous fait a manger. Je n'ai rien contre la soupe industrielle, mais personnellement, je ne l'aurais pas faite chauffer dans la bouilloire. VDM",
+    "date": {
+      "$date": "2016-10-03T19:09:00.000Z"
+    },
+    "author": "Cuisine nouvelle (homme)"
+  },
+  {
+    "_id": "8689789",
+    "content": "Aujourd'hui, ça fait 2 mois que j'ai acheté une maison. La fosse septique est pleine. Je viens de découvrir que la trappe se trouve sous la baignoire, scellée dans la chape. VDM",
+    "date": {
+      "$date": "2016-10-03T13:03:00.000Z"
+    },
+    "author": "Ironicaldiabolik"
+  },
+  {
+    "_id": "8689752",
+    "content": "Aujourd'hui, hospitalisé dans une chambre que je partage avec un autre patient, celui-ci m'annonce fièrement qu'il y aura \"le film porno de Canal+ ce soir\" et me demande si ça ne me dérange pas qu'il le regarde. Il m'a fait la tête toute la soirée parce que j'ai refusé. VDM",
+    "date": {
+      "$date": "2016-10-03T10:27:00.000Z"
+    },
+    "author": "Naindejardin (homme)"
+  },
+  {
+    "_id": "8689745",
+    "content": "Aujourd'hui, je fais la connaissance du chien de mon copain et nous partons pour faire une balade. Au moment de monter dans la voiture, mon copain prend un air désolé et m'explique qu'il faut que je monte derrière car son chien préfère être devant. Je ris. Il ne plaisantait pas. VDM",
+    "date": {
+      "$date": "2016-10-03T10:04:00.000Z"
+    },
+    "author": "Chiennedevie (femme)"
+  },
+  {
+    "_id": "8689690",
+    "content": "Aujourd'hui, je suis installée sur le fauteuil du dentiste quand survient une panne d'électricité. Impossible de finir les soins, me voilà avec 2 pansements bien blancs sur les dents de devant, parfaite imitation du dentifrice. Je suis prof et je sens que la journée de demain va être longue. VDM",
+    "date": {
+      "$date": "2016-10-03T04:55:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8689647",
+    "content": "Aujourd'hui, chute de cheval, fracture du coude. L'ambulancier qui m'accompagne s'est fait une coupure à la main en fermant la porte. Arrivé aux urgences, il a montré sa blessure à tous ses collègues avant de me sortir de l'ambulance. VDM",
+    "date": {
+      "$date": "2016-09-03T21:16:00.000Z"
+    },
+    "author": "TagadaTsoinTsoin"
+  },
+  {
+    "_id": "8689597",
+    "content": "Aujourd'hui, je suis tellement enrhumée que je dois choisir entre manger ou respirer. VDM",
+    "date": {
+      "$date": "2016-09-03T19:44:00.000Z"
+    },
+    "author": "Atchoum (femme)"
+  },
+  {
+    "_id": "8689571",
+    "content": "Aujourd'hui, heureuse propriétaire d'une construction neuve aux dernières normes d'économie d'énergie, je fais le point sur ma consommation d'électricité. Je dois 1000 € depuis notre emménagement. Après vérification, le constructeur a oublié d'isoler le plafond. Je chauffe le ciel depuis 3 mois. VDM",
+    "date": {
+      "$date": "2016-09-03T19:08:00.000Z"
+    },
+    "author": "Chauffeuse de ciel"
+  },
+  {
+    "_id": "8689519",
+    "content": "Aujourd'hui, ça fait trois mois que j'ai changé le panier à linge de place. Depuis trois mois, mon copain persiste à abandonner ses affaires sales à l'endroit même où se trouvait ledit panier avant que je ne le déplace. VDM",
+    "date": {
+      "$date": "2016-09-03T17:30:00.000Z"
+    },
+    "author": "Ourasio (femme)"
+  },
+  {
+    "_id": "8689505",
+    "content": "Aujourd'hui, des individus qui me paraissaient suspects sont venus me demander une chambre d'hôtel. Pour assurer ma sécurité, je leur ai sorti l'excuse \"C'est complet !\" pour ne pas avoir de problèmes. Ils sont revenus vingt minutes plus tard avec une réservation faite et prépayée via Internet. VDM",
+    "date": {
+      "$date": "2016-09-03T17:10:00.000Z"
+    },
+    "author": "Anonyme (homme)"
+  },
+  {
+    "_id": "8689491",
+    "content": "Aujourd'hui, je travaille les besoins des plantes avec mes élèves de CP. Il y a deux semaines, dans un pot nous avions mis du sel, l'autre du chocolat, puis du beurre et un seul avec de l'eau. À mon grand étonnement, les plantes ont toutes poussé. La femme de ménage arrosait tous les pots le soir. VDM",
+    "date": {
+      "$date": "2016-09-03T16:40:00.000Z"
+    },
+    "author": "teachAIR (femme)"
+  },
+  {
+    "_id": "8689478",
+    "content": "Aujourd'hui, c'est mon anniversaire. Je vois ma copine rentrer avec un cadeau dans les bras, et je lui dis que c'est gentil d'avoir pensé à moi, alors qu'elle a beaucoup de choses à faire. \"Comment ça ? C'est le cadeau de bienvenue pour nos nouveaux voisins !\" VDM",
+    "date": {
+      "$date": "2016-09-03T16:19:00.000Z"
+    },
+    "author": "lepointp"
+  },
+  {
+    "_id": "8689460",
+    "content": "Aujourd'hui, mouvement social. Fatigué des transports, avec toutes ces correspondances et ces temps d'attente interminables, il ne manquait plus qu'un homme qui se mouche à mains nues, à l'aise devant moi sur le quai en attendant le RER. VDM",
+    "date": {
+      "$date": "2016-09-03T15:51:00.000Z"
+    },
+    "author": "fridayG"
+  },
+  {
+    "_id": "8689387",
+    "content": "Aujourd'hui, je suis à la recherche d'un emploi dans ma région d'origine, après avoir travaillé plus de 5 ans à Dublin. Ma conseillère Pôle-emploi m'a sérieusement recommandé de repartir en Irlande, pour acquérir \"plus d'expérience,\" pour avoir un profil \"plus intéressant\". VDM",
+    "date": {
+      "$date": "2016-09-03T12:44:00.000Z"
+    },
+    "author": "Elliodora"
+  },
+  {
+    "_id": "8689347",
+    "content": "Aujourd'hui, à l'école, mon fils a reçu une petite pierre de la part de son amoureuse. Au moment de rentrer en classe, il a réalisé qu'il n'avait pas de poche. Pas grave : il l'a mise dans son nez. VDM",
+    "date": {
+      "$date": "2016-09-03T11:31:00.000Z"
+    },
+    "author": "MaisPourquoi?"
+  },
+  {
+    "_id": "8689325",
+    "content": "Aujourd'hui, en séjour au Danemark, j'appelle la police après le vol de mon portefeuille. Le policier me répond qu'il ne peut pas m'aider parce qu'il ne parle pas anglais, et que de toute façon je devrais parler danois. Le tout dans un anglais parfait. VDM",
+    "date": {
+      "$date": "2016-09-03T10:33:00.000Z"
+    },
+    "author": "cooooco"
+  },
+  {
+    "_id": "8689250",
+    "content": "Aujourd'hui, mon mari, qui pour une fois veut se comporter en \"chef de famille,\" sans recourir à mon avis, a acheté un nouveau frigo car l'ancien a rendu l'âme. Le nouveau est trop large, et ne passe pas la porte de l'appartement. On habite au 5ème étage, sans ascenseur. VDM",
+    "date": {
+      "$date": "2016-09-03T02:07:00.000Z"
+    },
+    "author": "Anonyme (femme)"
+  },
+  {
+    "_id": "8689018",
+    "content": "Aujourd'hui, dans le train, la femme âgée à côté de moi m'a raconté pendant tout le trajet son opération pour une descente d'organes, en m'expliquant bien à quel point elle était soulagée de ne plus voir \"un morceau de viande\" sortir de son entrejambe. VDM",
+    "date": {
+      "$date": "2016-08-03T16:44:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8688994",
+    "content": "Aujourd'hui, j'apprends que la personne chargée de me remplacer pendant mon congé maternité a été promue et sera ma nouvelle responsable à mon retour. VDM",
+    "date": {
+      "$date": "2016-08-03T16:06:00.000Z"
+    },
+    "author": "Orihime (femme)"
+  },
+  {
+    "_id": "8689319",
+    "content": "Aujourd'hui, je rencontre dans l'ascenseur ma voisine de palier accompagnée de son chien. Nouveau dans l'immeuble, je lui demande comment s'appelle son animal, sans obtenir de réponse. Arrivés à notre étage, je l'entend chuchoter : \"Oui Châtaigne, le monsieur sent la frite !\" VDM",
+    "date": {
+      "$date": "2016-09-03T10:25:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8688957",
+    "content": "Aujourd'hui, je récupère mon 4ème passeport. On m'a volé le 1er, j'ai perdu le 2ème cinq heures avant un vol pour les Etats-Unis - voyage annulé - et on m'a volé le 3ème quand on a fracturé ma voiture. Le mieux : je suis fiché, on croit que je fais du traffic. VDM",
+    "date": {
+      "$date": "2016-08-03T14:53:00.000Z"
+    },
+    "author": "PasseportMan (homme)"
+  },
+  {
+    "_id": "8689014",
+    "content": "Aujourd'hui, l'homme que je convoite depuis des mois m'a envoyé un SMS suite à notre dîner d'hier : \"Merci pour ce poulet au curry d'hier, cela faisait des semaines que j'étais constipé, depuis ce matin ça va beaucoup mieux.\" VDM",
+    "date": {
+      "$date": "2016-08-03T14:53:00.000Z"
+    },
+    "author": "nelly"
+  },
+  {
+    "_id": "8688953",
+    "content": "Aujourd'hui, mon fils de 5 ans est très fier d'avoir une maman pompier. Pour que tous ses copains puissent m'admirer en plein travail, il a tenté de mettre le feu à son école. VDM.",
+    "date": {
+      "$date": "2016-08-03T14:41:00.000Z"
+    },
+    "author": "Anonyme (femme)"
+  },
+  {
+    "_id": "8688941",
+    "content": "Aujourd'hui, et depuis qu'elle est enceinte, ma copine refuse toute relation sexuelle. Toute. Quoique, chaque soir, elle me pince les testicules en répétant : \"Oooh les gros oeufs.\" VDM.",
+    "date": {
+      "$date": "2016-08-03T14:18:00.000Z"
+    },
+    "author": "macopineestfolle (homme)"
+  },
+  {
+    "_id": "8688911",
+    "content": "Aujourd'hui, je vois le mec qui me plait s'avancer vers moi. Étant enrhumée, je lui dis que je ne peux pas lui faire la bise car je suis malade. \"De toute façon, je ne comptais pas te la faire, je ne sais pas qui tu es.\" VDM",
+    "date": {
+      "$date": "2016-08-03T12:18:00.000Z"
+    },
+    "author": "Mistral perdant (femme)"
+  },
+  {
+    "_id": "8688905",
+    "content": "Aujourd'hui, j'ai découvert à quel point mon ex-copine était une femme formidable. Alors non, elle n'a pas brûlé mes affaires, ne les a pas déchirées, ni jetées à la poubelle. Non, elle, c'est une fille bien. Elle les a données à une oeuvre de charité. VDM",
+    "date": {
+      "$date": "2016-08-03T12:05:00.000Z"
+    },
+    "author": "jaiplusrien"
+  },
+  {
+    "_id": "8688874",
+    "content": "Aujourd'hui, notre vieille voisine peu sympathique, qui ne sait pas lire, vient très souvent sonner à notre porte pour qu'on lui lise ses SMS. Ma copine a donc mis un petit mot à son attention sur la porte pour qu'elle arrête de nous déranger. VDM",
+    "date": {
+      "$date": "2016-08-03T10:48:00.000Z"
+    },
+    "author": "Anonyme (homme)"
+  },
+  {
+    "_id": "8688866",
+    "content": "Aujourd'hui, j'ai appris au cours d'une discussion que R2D2, dans Star Wars, cachait en fait un acteur. Je suis certes très naïve mais ça m'a fait le même effet que la révélation du Père Noël. VDM",
+    "date": {
+      "$date": "2016-08-03T10:13:00.000Z"
+    },
+    "author": "Purdey"
+  },
+  {
+    "_id": "8688852",
+    "content": "Aujourd'hui, journée des droits des femmes pour, notamment, combattre le sexisme. À cette occasion, le centre commercial de ma ville organise un concours de repassage. Il y a encore du boulot. VDM",
+    "date": {
+      "$date": "2016-08-03T09:09:00.000Z"
+    },
+    "author": "DeadPoolpator"
+  },
+  {
+    "_id": "8688833",
+    "content": "Aujourd'hui, je me suis pris une journée de congé pour moi. Enfants à l'école, pomponnée, apprêtée, je m'apprête à sortir pour une journée cinéma-shopping-détente. En passant dans la cuisine, j'ai accroché la bouteille d'huile d'olive, qui a explosé dans la cuisine, aspergeant tout, moi compris. VDM",
+    "date": {
+      "$date": "2016-08-03T07:50:00.000Z"
+    },
+    "author": "Anonyme (femme)"
+  },
+  {
+    "_id": "8688798",
+    "content": "Aujourd'hui, un client qui a réservé sa chambre par internet m'a ensuite téléphoné pour savoir s'il fallait qu'il vienne à la réception de l'hôtel pour récupérer sa clé. Dans ma tête, j'ai répondu : \"Bah non ducon, on va te la faxer.\" Enfin, je croyais que c'était dans ma tête. Il m'a entendu. VDM",
+    "date": {
+      "$date": "2016-08-03T01:30:00.000Z"
+    },
+    "author": "Anonyme (homme)"
+  },
+  {
+    "_id": "8688785",
+    "content": "Aujourd'hui, et comme toujours, ma copine me parle en Italien quand elle me fait la tête. Ça va faire trois semaines et je ne comprends toujours rien. VDM",
+    "date": {
+      "$date": "2016-08-02T22:47:00.000Z"
+    },
+    "author": "macopineitalienne"
+  },
+  {
+    "_id": "8688711",
+    "content": "Aujourd'hui, c'est l'anniversaire de mon fils, 6 ans. Je lui annonce un pique-nique mais le surprends en l'amenant à Disneyland. Verdict après une journée ruineuse et très remplie ? \"C'était sympa Disneyland, mais j'aurais préféré un pique-nique.\" VDM",
+    "date": {
+      "$date": "2016-07-03T20:04:00.000Z"
+    },
+    "author": "mickey tu parles"
+  },
+  {
+    "_id": "8688635",
+    "content": "Aujourd'hui, mon copain m'a demandé en mariage dans les toilettes d'une aire d'autoroute. VDM",
+    "date": {
+      "$date": "2016-07-03T17:16:00.000Z"
+    },
+    "author": "anonyme"
+  },
+  {
+    "_id": "8688571",
+    "content": "Aujourd'hui, discussion avec mes collègues du magasin de décoration où je travaille pour décider du meilleur endroit où exposer une suspension en verre, aussi fragile que coûteuse. Ma maladresse aura eu le dernier mot. Ce sera la poubelle. VDM",
+    "date": {
+      "$date": "2016-07-03T14:41:00.000Z"
+    },
+    "author": "Ra5X"
+  },
+  {
+    "_id": "8688531",
+    "content": "Aujourd'hui, mon employeur a pris la décision louable de faire un geste pour la planète en passant \"au tout naturel\". Je suis femme de ménage et j'ai maintenant une habitation de 250 m2 à récurer \"à l'huile de coude et au vinaigre blanc\". VDM",
+    "date": {
+      "$date": "2016-07-03T11:48:00.000Z"
+    },
+    "author": "Surlesrotules (femme)"
+  },
+  {
+    "_id": "8688433",
+    "content": "Aujourd'hui, chéri et moi remettons en main propre notre joli faire-part de mariage, lisse, brillant et rigide, à beau-papa. Après l'avoir lu, il l'a plié en deux pour le ranger. VDM",
+    "date": {
+      "$date": "2016-07-03T05:24:00.000Z"
+    },
+    "author": "Emyss"
+  },
+  {
+    "_id": "8688417",
+    "content": "Aujourd'hui, mon copain et moi partons en vacances au Panama. Arrivés à l'aéroport, nos deux valises ne sont pas présentes et sont introuvables par la compagnie. Il fait 32 degrés et nous avons nos doudounes et nos jeans pour seuls vêtements. VDM",
+    "date": {
+      "$date": "2016-07-03T02:50:00.000Z"
+    },
+    "author": "Touriste26"
+  },
+  {
+    "_id": "8688396",
+    "content": "Aujourd'hui, je retrouve mon copain. Hier par message il m'avait dit : \"Rappelle-moi de te dire quelque chose quand on se verra.\" Heureusement que j'y ai pensé, cette tête en l'air a bien failli oublié de me quitter. VDM",
+    "date": {
+      "$date": "2016-07-02T23:09:00.000Z"
+    },
+    "author": "labonnepoire"
+  },
+  {
+    "_id": "8688349",
+    "content": "Aujourd'hui, j'envoie un message doux et tendre à ma bien aimée, afin d'annoncer par sous-entendu une demande en mariage pour fêter nos 5 ans de relation. Sa réponse : \"Tkt gros :)\" VDM",
+    "date": {
+      "$date": "2016-06-03T21:18:00.000Z"
+    },
+    "author": "LaFemmeABienChangé"
+  },
+  {
+    "_id": "8688314",
+    "content": "Aujourd'hui, un homme a tenté de me voler en glissant furtivement sa main dans mon sac. Je ne sais pas lequel de nous deux fut le plus surpris quand il en extirpa la première chose qu'il y trouva : ma main. VDM",
+    "date": {
+      "$date": "2016-06-03T20:24:00.000Z"
+    },
+    "author": "MainVolée"
+  },
+  {
+    "_id": "8688310",
+    "content": "Aujourd'hui, mon copain, euphorique suite à un message de son père lui disant qu'il neige, a brutalement ouvert le velux au dessus de mon lit. J'étais dessous. Nue. VDM",
+    "date": {
+      "$date": "2016-06-03T20:20:00.000Z"
+    },
+    "author": "Melba95"
+  },
+  {
+    "_id": "8688271",
+    "content": "Aujourd'hui, enceinte de 8 mois et plutôt bien enrobée, je vais au loto de ma commune. J'ai gagné un pèse personne. Même le hasard se moque de moi. VDM",
+    "date": {
+      "$date": "2016-06-03T19:18:00.000Z"
+    },
+    "author": "Anonyme"
+  },
+  {
+    "_id": "8688248",
+    "content": "Aujourd'hui, journée portes ouvertes dans mon établissement. Je reçois un jeune qui souhaite intégrer ma formation. On discute et je lui vante les mérites de l'alternance contre les formations continues qui, comme je lui dis, restent deux ans \"le cul sur une chaise\". Il était en fauteuil roulant. VDM",
+    "date": {
+      "$date": "2016-06-03T18:39:00.000Z"
+    },
+    "author": "Nomis7249"
+  },
+  {
+    "_id": "8688221",
+    "content": "Aujourd'hui, et depuis une semaine, je suis tellement prise par ma thèse que je n'ai pas le temps de faire les courses. La plupart des femmes aiment que leur homme leur ramène des fleurs. Moi, j'ai demandé à ce qu'il me ramène du PQ. VDM",
+    "date": {
+      "$date": "2016-06-03T17:30:00.000Z"
+    },
+    "author": "SPAcambrioleur (femme)"
+  },
+  {
+    "_id": "8688214",
+    "content": "Aujourd'hui, à 6 mois de grossesse, ma libido remonte enfin après plusieurs mois de \"baisse de régime\". C'est maintenant mon copain qui refuse de faire l'amour, de peur de déclencher un accouchement prématuré. VDM",
+    "date": {
+      "$date": "2016-06-03T17:11:00.000Z"
+    },
+    "author": "Plop (femme)"
+  },
+  {
+    "_id": "8688085",
+    "content": "Aujourd'hui, j'ouvre mon frigo pour prendre un yaourt et là, un morceau de fromage de 750 grammes me tombe sur les doigts de pied. Direction les urgences, mon pied est à moitié cassé et les docteurs ont su garder leur sérieux en apprenant mon \"agression au morbier\". VDM",
+    "date": {
+      "$date": "2016-06-03T11:51:00.000Z"
+    },
+    "author": "Davaï"
+  }
+]
