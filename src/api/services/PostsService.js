@@ -57,7 +57,8 @@ function _postsGET(args, res) {
                 res.statusCode = 204;
                 res.end();
             } else {
-                res.setHeader('Content-Type', 'application/json');
+                res.setHeader('Content-Type', 'application/json; charset=utf-8');
+                res.setHeader('Content-Encoding', 'UTF-8');
                 res.end(JSON.stringify({
                     posts: articles,
                     count: articles.length
@@ -84,7 +85,7 @@ function _postsGETone(args, res) {
         ])
         .limit(1)
         .next(function (err, article) {
-            res.setHeader('Content-Type', 'application/json');
+            res.setHeader('Content-Type', 'application/json; charset=utf-8');
             if (!article) {
                 res.statusCode = 404;
                 res.end();
