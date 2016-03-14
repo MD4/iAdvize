@@ -3,12 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "bin/www",
+  "homepage": "https://github.com/MD4/iAdvize#readme",
+  "keywords": [
+    "iadvize",
+    "swagger",
+    "api",
+    "scrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD4/iAdvize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MD4/iAdvize/issues"
+  },
   "scripts": {
     "test": "gulp",
     "start": "node bin/www",
     "scrapper": "node bin/scrapper"
   },
-  "author": "",
+  "author": "Martin DEQUATREMARE (https://github.com/MD4)",
   "license": "ISC",
   "devDependencies": {
     "chai": "3.5.0",
