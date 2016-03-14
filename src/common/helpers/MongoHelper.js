@@ -1,12 +1,12 @@
 var MongoClient = require('mongodb').MongoClient;
 var moment = require('moment');
 
-var config = require('../../api/config/config');
+var config = require('../config/config');
 
 var db;
 
 var CollectionsNames = {
-    ARTICLES: 'articles'
+    POSTS: 'posts'
 };
 
 // exports
@@ -43,6 +43,7 @@ function _getCollection(name) {
 /**
  * Initializes connection to the database
  * @param callback
+ * @param test Test mode enabled or not
  * @private
  */
 function _connect(callback, test) {
@@ -76,18 +77,18 @@ function _finalize() {
  * @private
  */
 function _initializeTestDatabase(callback) {
-    var db = _getCollection(CollectionsNames.ARTICLES);
-    var articles = require('../../../test/data/articles.json');
+    var db = _getCollection(CollectionsNames.POSTS);
+    var posts = require('../../../test/data/posts.json');
 
-    articles.forEach(function(article) {
-        if (!(article.date instanceof Date)) {
-            article.date = moment(article.date.$date).toDate();
+    posts.forEach(function(post) {
+        if (!(post.date instanceof Date)) {
+            post.date = moment(post.date.$date).toDate();
         }
     });
 
     db.drop();
     db.insertMany(
-        articles,
+        posts,
         callback
     );
 }

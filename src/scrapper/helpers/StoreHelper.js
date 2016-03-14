@@ -4,38 +4,38 @@ var MongoHelper = require('../../common/helpers/MongoHelper');
 
 // exports
 
-module.exports.storeArticles = _storeArticles;
+module.exports.storePosts = _storePosts;
 
 // private
 
 /**
- * Stores articles in database
- * @param articles Articles to store
+ * Stores posts in database
+ * @param posts Posts to store
  * @param callback
  * @private
  */
-function _storeArticles(articles, callback) {
+function _storePosts(posts, callback) {
     async.parallel(
-        articles
-            .map(function (article) {
-                return _storeArticleIt(article);
+        posts
+            .map(function (post) {
+                return _storePostIt(post);
             }),
         callback
     );
 }
 
 /**
- * Stores an article in database
- * @param article Article to store
+ * Stores an post in database
+ * @param post Post to store
  * @returns {Function}
  * @private
  */
-function _storeArticleIt(article) {
+function _storePostIt(post) {
     return function (callback) {
         MongoHelper
-            .getCollection(MongoHelper.CollectionsNames.ARTICLES)
+            .getCollection(MongoHelper.CollectionsNames.POSTS)
             .save(
-                article,
+                post,
                 callback
             );
     };

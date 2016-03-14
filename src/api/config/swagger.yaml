@@ -16,7 +16,7 @@ paths:
       tags:
       - "Posts"
       summary: "Posts"
-      description: "The posts endpoint returns the articles"
+      description: "The posts endpoint returns the posts"
       operationId: "postsGET"
       parameters:
       - name: "author"

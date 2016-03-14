@@ -6,7 +6,7 @@ module.exports.parseDate = _parseDate;
 // private
 
 /**
- * Extracts the article author from the raw html element text
+ * Extracts the post author from the raw html element text
  * @param string
  * @returns {string}
  * @private
@@ -18,7 +18,7 @@ function _parseAuthor(string) {
 }
 
 /**
- * Extracts the article date from the raw html element text
+ * Extracts the post date from the raw html element text
  * @param string
  * @returns {Date}
  * @private

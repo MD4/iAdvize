@@ -6,7 +6,7 @@ var swaggerTools = require('swagger-tools');
 var jsyaml = require('js-yaml');
 var fs = require('fs');
 
-var config = require('./config/config');
+var config = require('./../common/config/config');
 var MongoHelper = require('../common/helpers/MongoHelper');
 
 // exports

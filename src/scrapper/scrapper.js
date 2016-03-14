@@ -14,16 +14,16 @@ module.exports.start = _start;
 // private
 
 /**
- * Number of articles on a single page
+ * Number of posts on a single page
  * @type {number}
  */
-var ARTICLES_PER_PAGE = 13;
+var POSTS_PER_PAGE = 13;
 
 /**
- * Number of articles to fetch
+ * Number of posts to fetch
  * @type {number}
  */
-var ARTICLES_TO_FETCH = +process.argv[2] || 200;
+var POSTS_TO_FETCH = +process.argv[2] || 200;
 
 /**
  * Base url to scrappe
@@ -37,18 +37,18 @@ var BASE_URL = 'http://www.viedemerde.fr/?page=';
  * @private
  */
 function _start() {
-    MongoHelper.connect(_fetchArticles);
+    MongoHelper.connect(_fetchPosts);
 }
 
 /**
- * Build each request to fetch articles
+ * Build each request to fetch posts
  * @private
  */
-function _fetchArticles() {
+function _fetchPosts() {
     var queries = [];
 
     // Builds each query to execute
-    for (var i = 0; i * ARTICLES_PER_PAGE < ARTICLES_TO_FETCH; i++) {
+    for (var i = 0; i * POSTS_PER_PAGE < POSTS_TO_FETCH; i++) {
         queries.push(_buildRequest(BASE_URL + i));
     }
 
@@ -57,12 +57,12 @@ function _fetchArticles() {
         queries,
         function (err, results) {
             // Flatten results
-            var articles = [].concat.apply([], results);
+            var posts = [].concat.apply([], results);
 
-            console.log('Done. %s articles fetched.', articles.length);
-            console.log('Storing articles...');
+            console.log('Done. %s posts fetched.', posts.length);
+            console.log('Storing posts...');
 
-            StoreHelper.storeArticles(articles, function () {
+            StoreHelper.storePosts(posts, function () {
                 console.log('Done.');
 
                 MongoHelper.finalize();
@@ -103,26 +103,26 @@ function _requestResponseHandler(callback) {
         }
 
         var $ = cheerio.load(body);
-        var $articles = $('.article');
+        var $posts = $('.article');
 
-        var articles = $articles
-            .map(_parseArticleHandler($))
+        var posts = $posts
+            .map(_parsePostHandler($))
             .get();
 
-        callback(null, articles);
+        callback(null, posts);
     };
 }
 
 /**
- * Builds an handler which extracts an article from a parsed response body
+ * Builds an handler which extracts an post from a parsed response body
  * @param $
  * @returns {Function}
  * @private
  */
-function _parseArticleHandler($) {
-    return function (i, $article) {
+function _parsePostHandler($) {
+    return function (i, $post) {
 
-        var dateAuthorAggregate = $($article)
+        var dateAuthorAggregate = $($post)
             .find('.date .right_part p:nth-child(2)')
             .text()
             .split(' - ');
@@ -131,8 +131,8 @@ function _parseArticleHandler($) {
         var author = dateAuthorAggregate[2];
 
         return {
-            _id: $($article).attr('id'),
-            content: $($article).find('> p').text(),
+            _id: $($post).attr('id'),
+            content: $($post).find('> p').text(),
             date: ParseHelper.parseDate(date),
             author: ParseHelper.parseAuthor(author)
         };

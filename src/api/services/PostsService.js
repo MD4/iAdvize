@@ -47,21 +47,21 @@ function _postsGET(args, res) {
     }
 
     MongoHelper
-        .getCollection(MongoHelper.CollectionsNames.ARTICLES)
+        .getCollection(MongoHelper.CollectionsNames.POSTS)
         .aggregate([
             {$match: match},
             {$project: postProjection}
         ])
-        .toArray(function (err, articles) {
-            if (!articles) {
+        .toArray(function (err, posts) {
+            if (!posts) {
                 res.statusCode = 204;
                 res.end();
             } else {
                 res.setHeader('Content-Type', 'application/json; charset=utf-8');
                 res.setHeader('Content-Encoding', 'UTF-8');
                 res.end(JSON.stringify({
-                    posts: articles,
-                    count: articles.length
+                    posts: posts,
+                    count: posts.length
                 }));
             }
         });
@@ -78,20 +78,20 @@ function _postsGETone(args, res) {
     var postId = args.id.value;
 
     MongoHelper
-        .getCollection(MongoHelper.CollectionsNames.ARTICLES)
+        .getCollection(MongoHelper.CollectionsNames.POSTS)
         .aggregate([
             {$match: {_id: postId}},
             {$project: postProjection}
         ])
         .limit(1)
-        .next(function (err, article) {
+        .next(function (err, post) {
             res.setHeader('Content-Type', 'application/json; charset=utf-8');
-            if (!article) {
+            if (!post) {
                 res.statusCode = 404;
                 res.end();
             } else {
                 res.end(JSON.stringify({
-                    post: article
+                    post: post
                 }));
             }
         });
