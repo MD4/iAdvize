@@ -52,6 +52,9 @@ function _initializeSwagger(callback) {
 
     // Initialize the Swagger middleware
     swaggerTools.initializeMiddleware(swaggerDoc, function (middleware) {
+        // Allow all origins
+        app.use(_accessControlMiddleware())
+
         // Interpret Swagger resources and attach metadata to request - must be first in swagger-tools middleware chain
         app.use(middleware.swaggerMetadata());
 
@@ -86,3 +89,15 @@ function _stop() {
     server.close();
 }
 
+/**
+ * Allow all origins middleware
+ * @param req
+ * @param res
+ * @param next
+ * @private
+ */
+function _accessControlMiddleware(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+}
