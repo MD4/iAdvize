@@ -65,6 +65,13 @@ function _initializeSwagger(callback) {
         // Serve the Swagger documents and Swagger UI
         app.use(middleware.swaggerUi());
 
+        // Enabling CORS
+        app.use(function(req, res, next) {
+            res.setHeader("Access-Control-Allow-Origin", "*");
+            res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+            next();
+        });
+
         // Start the server
         server = http.createServer(app);
         server.listen(config.api.port, function () {
