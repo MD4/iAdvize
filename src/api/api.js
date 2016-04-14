@@ -53,6 +53,13 @@ function _initializeSwagger(callback) {
     // Initialize the Swagger middleware
     swaggerTools.initializeMiddleware(swaggerDoc, function (middleware) {
 
+        // Enabling CORS
+        app.use(function(req, res, next) {
+            res.setHeader("Access-Control-Allow-Origin", "*");
+            res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+            next();
+        });
+
         // Interpret Swagger resources and attach metadata to request - must be first in swagger-tools middleware chain
         app.use(middleware.swaggerMetadata());
 
@@ -64,13 +71,6 @@ function _initializeSwagger(callback) {
 
         // Serve the Swagger documents and Swagger UI
         app.use(middleware.swaggerUi());
-
-        // Enabling CORS
-        app.use(function(req, res, next) {
-            res.setHeader("Access-Control-Allow-Origin", "*");
-            res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-            next();
-        });
 
         // Start the server
         server = http.createServer(app);
