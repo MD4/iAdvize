@@ -1,6 +1,6 @@
 # iAdvize
 
-This my implementation of the iAdvize-VDM test.
+This is my implementation of the iAdvize-VDM test.
 
 Demo app:
 
